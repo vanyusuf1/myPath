@@ -4,13 +4,13 @@ body {
 }
 
 td {
-    border: 1px solid #79d9ce;
+    border: 1px solid #010f0d;
     width: 20px;
     height: 20px;
 }
 
 .key {
-	border: 1px solid #79d9ce;
+	border: 3px solid #055555;
 	width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -43,14 +43,14 @@ ul {
 
 .searching {
 	transition : background-color 0.08s ease-in-out;
-	background-color: #1cd4b5;
-	border-color: #1cd4b5;
+	background-color: rgb(132 194 182);
+    border-color: rgb(53 79 43);
 }
 
 .visited {
 	transition : background-color 0.08s ease-in-out;
-	background-color: #e89440;
-	border-color: #e89440;
+	background-color: #6b7e69;
+    border-color: #302d2a;
 }
 
 .success {
@@ -84,14 +84,14 @@ ul {
 #results {
 	height: 87px;
 	width: 120px;
-	background-color: #ffc107;
+	background-color: #e7e5e5;
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
-	color: white;
+	color: 090808;
 	font-size: 12px;
 	text-align: center;
-	border: 1px dashed black;
+	border: 3px dashed #000000;
 }
 
 #resultsIcon {
@@ -111,3 +111,13 @@ ul {
 .fun-fact {
 	color: darkgreen;
 }
+
+.btn-de {
+
+
+	color: #db3131;
+	cursor: pointer;
+	background-color: #023002
+  
+  
+	}
