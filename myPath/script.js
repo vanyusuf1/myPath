@@ -1194,6 +1194,6 @@ $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus');
 })
 
-$(window).on('load',function(){
-        $('#exampleModalLong').modal('show');
-});
+// $(window).on('load',function(){
+//         $('#exampleModalLong').modal('show');
+// });
